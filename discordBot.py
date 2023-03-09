@@ -21,7 +21,6 @@ sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
 
-token = 'MTA2MDkwNDI4NTM1OTA0NjY5Ng.GNdHYR.xHw2rI_tFXsknIPr-omK88cJd7EWCil28M61YQ'
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
